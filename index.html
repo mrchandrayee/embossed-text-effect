@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#cbd4e3">
+  <title>Embossed Text Effect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"><h1>Embossed Text Effect</h1></header>
+  <main class="effects">
+    <article class="effect-card">
+      <h2>Soft Emboss</h2>
+      <div class="preview"><span class="emboss-soft">EMBOSS</span></div>
+      <div class="code-window">
+        <div class="window-bar"><i></i><i></i><i></i><span>style.css</span></div>
+        <pre><code>.emboss-soft {
+  text-shadow:
+    -1px -1px 2px rgba(255,255,255,.8),
+     1px  1px 2px rgba(0,0,0,.2);
+}</code></pre>
+      </div>
+    </article>
+
+    <article class="effect-card">
+      <h2>Deep Emboss</h2>
+      <div class="preview"><span class="emboss-deep">EMBOSS</span></div>
+      <div class="code-window">
+        <div class="window-bar"><i></i><i></i><i></i><span>style.css</span></div>
+        <pre><code>.emboss-deep {
+  color: #c5cedd;
+  text-shadow:
+    -2px -2px 4px rgba(255,255,255,.9),
+     2px  2px 4px rgba(0,0,0,.3),
+    -1px -1px 0 rgba(255,255,255,.5),
+     1px  1px 0 rgba(0,0,0,.2);
+}</code></pre>
+      </div>
+    </article>
+
+    <article class="effect-card">
+      <h2>Debossed (Pressed Inward)</h2>
+      <div class="preview"><span class="debossed">PRESSED</span></div>
+      <div class="code-window">
+        <div class="window-bar"><i></i><i></i><i></i><span>style.css</span></div>
+        <pre><code>.debossed {
+  text-shadow:
+     1px  1px 2px rgba(255,255,255,.8),
+    -1px -1px 2px rgba(0,0,0,.3);
+}</code></pre>
+      </div>
+    </article>
+
+    <article class="effect-card">
+      <h2>Metallic Emboss</h2>
+      <div class="preview"><span class="emboss-metal">METAL</span></div>
+      <div class="code-window">
+        <div class="window-bar"><i></i><i></i><i></i><span>style.css</span></div>
+        <pre><code>.emboss-metal {
+  color: #b0b5c0;
+  text-shadow:
+    -1px -1px 0 rgba(255,255,255,.7),
+     1px  1px 0 rgba(0,0,0,.6),
+    -2px -2px 5px rgba(255,255,255,.5),
+     2px  2px 5px rgba(0,0,0,.5);
+}</code></pre>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
